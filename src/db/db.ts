@@ -1,6 +1,15 @@
+import {type Student,type Course} from "../libs/types.js";
+
 export let students: Student[] = [
     {
-      studentId: "650610001",
+      studentId: "670612115",
+      firstName: "Kittipong",
+      lastName: "Chaiyayong",
+      program :"CPE",
+      section : 801
+    },
+    {
+      studentId: "999999999",
       firstName: "Matt",
       lastName: "Damon",
       program: "CPE",
@@ -18,7 +27,7 @@ export let students: Student[] = [
       lastName: "Blunt",
       program: "ISNE",
       courses: [269101, 261497]
-    },
+    }
   ]
 
   export let courses: Course[] = [
